@@ -1,4 +1,4 @@
-let salary = prompt("Введіть розмір вашої зарплати");
+let salary = prompt("Введіть розмір вашої зарплати:");
 salary = parseFloat(salary);
 if (!isNaN(salary)) {
     salary = parseFloat(salary);
@@ -14,5 +14,5 @@ if (!isNaN(salary)) {
     let remainder = accrual - taxes - costs;
     alert ("Залишок від зарплати складає:" + remainder);
 } else {
-    alert("Будь ласка, введіть коректне числове значення для зарплати.");
+    alert("Будь ласка, введіть коректне числове значення для зарплати!");
 }
